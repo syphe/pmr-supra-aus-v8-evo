@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<i3D name="toyota_supra_aus_v8_evo_shifter.i3d" version="1.6">
+    <!--Invisible animation scaffold: base-game Gillet Vertigo CPIT hierarchy, no rendered geometry.-->
+    <Files />
+    <Materials />
+    <Shapes />
+    <Scene>
+        <TransformGroup name="GIllet_Vertigo_CPIT" nodeId="46">
+            <TransformGroup name="Armature_CPIT" nodeId="47">
+                <TransformGroup name="Root" rotation="90 -0 0" nodeId="48">
+                    <TransformGroup name="CPIT_Bonnet" translation="0.51191 -2.9013e-07 -0.778161" rotation="8.64588e-07 -11.1008 -6.81983e-06" nodeId="49" />
+                    <TransformGroup name="CPIT_Gearshift" translation="-0.232155 -0.0224423 -0.307561" rotation="-0.0073481 -0.0650255 0.0625202" nodeId="50">
+                        <TransformGroup name="CPIT_Gearshift_End" translation="3.81988e-10 -1.46247e-09 -0.356851" rotation="0.0073481 0.0650255 -1.98769e-06" nodeId="51" />
+                    </TransformGroup>
+                    <TransformGroup name="CPIT_Mirror_L" translation="-0.186376 -0.826662 -0.706156" rotation="-0 -90 0" nodeId="52" />
+                    <TransformGroup name="CPIT_Mirror_R" translation="-0.186376 0.826661 -0.706157" rotation="-0 -90 0" nodeId="53" />
+                    <TransformGroup name="CPIT_SteeringWheel" translation="-0.187124 -0.330109 -0.635346" rotation="24.1132 68.6594 25.6665" nodeId="54" />
+                    <TransformGroup name="CPIT_Wires01" translation="-0.165408 -0.364574 -0.560411" rotation="-90 -1.35557e-17 -3.54369e-05" nodeId="55" />
+                    <TransformGroup name="CPIT_Wires02" translation="-0.103621 0.381504 -0.384398" rotation="-90 6.29561e-07 -90" nodeId="56" />
+                    <TransformGroup name="CPIT_Wires03" translation="-0.267004 0.115969 -0.324512" rotation="-90 -4.01651e-18 -2.36246e-05" nodeId="57" />
+                    <TransformGroup name="CPIT_Wires04" translation="-0.159321 0.187915 -0.352052" rotation="-90 2.60551e-11 -3.54369e-05" nodeId="58" />
+                    <TransformGroup name="CPIT_Wires05" translation="-0.111517 0.244142 -0.447439" rotation="-90 6.29565e-07 -90" nodeId="59" />
+                    <TransformGroup name="CPIT_Wires06" translation="-0.0164456 -0.212575 -0.738908" rotation="-90 -4.35255e-06 -90" nodeId="60" />
+                </TransformGroup>
+                <TransformGroup name="GIL_VERT_BODY_CPIT" nodeId="61" />
+                <TransformGroup name="GIL_VERT_BODY_GLASS_CPIT" nodeId="62" />
+                <TransformGroup name="GIL_VERT_BONNET_ALPHA_CPIT" nodeId="63" />
+                <TransformGroup name="GIL_VERT_BONNET_CPIT" nodeId="64" />
+                <TransformGroup name="GIL_VERT_BONNET_GLASS_CPIT" nodeId="65" />
+                <TransformGroup name="GIL_VERT_CHASSIS_CPIT" nodeId="66" />
+                <TransformGroup name="GIL_VERT_EXTANIM_CPIT" nodeId="67">
+                    <TransformGroup name="GIL_VERT_MIRROR_L_CPIT" translation="-0.268082 0.750467 -0.859936" rotation="84.1957 -62.5278 0.927115" nodeId="68" />
+                    <TransformGroup name="GIL_VERT_MIRROR_R_CPIT" translation="-0.248163 0.750467 0.85059" rotation="87.9552 -126.726 -0.500959" nodeId="69" />
+                </TransformGroup>
+                <TransformGroup name="GIL_VERT_GEARSHIFT_CPIT" nodeId="70" />
+                <TransformGroup name="GIL_VERT_INTANIM_CPIT" nodeId="71" />
+                <TransformGroup name="GIL_VERT_INTERIOR2_CPIT" nodeId="72" />
+                <TransformGroup name="GIL_VERT_INTERIOR_CPIT" nodeId="73" />
+                <TransformGroup name="GIL_VERT_REARWING_CPIT" nodeId="74" />
+                <TransformGroup name="GIL_VERT_SHADOW_CPIT" nodeId="75" />
+                <TransformGroup name="GIL_VERT_STEERINGWHEEL_CPIT" translation="-0.187124 0.635346 -0.330109" rotation="-1.8366e-06 2.70083e-06 -20.4077" nodeId="76" />
+                <TransformGroup name="GIL_VERT_WINDOWS_CPIT" nodeId="77" />
+                <TransformGroup name="WINDSCREEN_BOX" nodeId="78" />
+            </TransformGroup>
+            <TransformGroup name="GIL_VERT_WIPER_CPIT" scale="0.999999 0.999999 0.999999" nodeId="79">
+                <TransformGroup name="ROOT_CPIT" translation="3.81469e-08 -0.00499999 1.52588e-07" rotation="90 -0 0" nodeId="80" />
+                <TransformGroup name="WIPER_R_PIVOT_CPIT" translation="0.227083 0.690027 -0.344591" rotation="51.8989 -56.9089 -6.55379" nodeId="81">
+                    <TransformGroup name="WIPER_R_ARM_CPIT" translation="-1.49012e-08 -2.98023e-08 -0.0544636" rotation="-100.579 -5.14469 127.607" nodeId="82">
+                        <TransformGroup name="WIPER_R_ARM_TIP_CPIT" translation="-2.18861e-08 -2.18861e-08 -0.328956" rotation="0.477521 -3.84323 99.662" nodeId="83" />
+                        <TransformGroup name="WIPER_R_BLADE_1" translation="-0.00132702 -0.00531865 -0.328407" rotation="178.398 -2.02998 177.497" nodeId="84">
+                            <TransformGroup name="WIPER_R_BLADE_1_TIP_CPIT" translation="-1.49012e-08 -3.35276e-08 -0.181975" rotation="-3.98294 -1.89821 -119.549" nodeId="85" />
+                        </TransformGroup>
+                        <TransformGroup name="WIPER_R_BLADE_2_CPIT" translation="-0.00132702 -0.00531865 -0.328407" rotation="-17.901 9.71765 4.4081" nodeId="86">
+                            <TransformGroup name="WIPER_R_BLADE_2_TIP_CPIT" translation="5.56465e-08 -4.09782e-08 -0.19062" rotation="6.31792 -11.5371 38.2051" nodeId="87" />
+                        </TransformGroup>
+                    </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="WIPER_CPIT" nodeId="88" />
+            </TransformGroup>
+        </TransformGroup>
+    </Scene>
+    <Animation externalAnimFile="toyota_supra_aus_v8_evo_shifter.i3d.anim" />
+</i3D>

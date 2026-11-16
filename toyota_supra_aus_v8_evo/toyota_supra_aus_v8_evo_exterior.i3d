@@ -1,0 +1,972 @@
+<?xml version='1.0' encoding='utf-8'?>
+<i3D xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="toyota_supra_aus_v8_evo_exterior.i3d" version="1.6" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="i3dConverter" version="1.0" />
+    </Asset>
+    <Files>
+        <File fileId="85" filename="$data/shaders/str4_VehicleGlassShader.xml" />
+        <File fileId="22" filename="$data/shaders/str4_vehicleBasicShader.xml" />
+        <File fileId="80" filename="$data/shaders/str4_vehicleBasicTranslucentShader.xml" />
+        <File fileId="63" filename="$data/shaders/str4_vehicleBodyworkShader.xml" />
+        <File fileId="34" filename="$data/shaders/str4_vehicleTyreShader.xml" />
+        <File fileId="3" filename="$data/shaders/str4_vehicleWheelShader.xml" />
+        <File fileId="92" filename="$data/vehicles/Toyota_Supra_GT4/Liveries/t_toy_sup_gt4_evo_banner_alb.png" />
+        <File fileId="93" filename="$data/vehicles/Toyota_Supra_GT4/Liveries/t_toy_sup_gt4_evo_banner_arm.png" />
+        <File fileId="64" filename="$data/vehicles/Toyota_Supra_GT4/Liveries/t_toy_sup_gt4_evo_livery33_alb.png" />
+        <File fileId="65" filename="$data/vehicles/Toyota_Supra_GT4/Liveries/t_toy_sup_gt4_evo_livery33_arm.png" />
+        <File fileId="81" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_badges_alb.png" />
+        <File fileId="82" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_badges_arm.png" />
+        <File fileId="83" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_badges_norm.png" />
+        <File fileId="23" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_caliper_alb.png" />
+        <File fileId="24" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_caliper_arm.png" />
+        <File fileId="25" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_caliper_norm.png" />
+        <File fileId="30" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_damage_mask.png" />
+        <File fileId="56" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_damage_norm.png" />
+        <File fileId="26" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_dirt.png" />
+        <File fileId="5" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_disc_01_alb.png" />
+        <File fileId="7" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_disc_01_arm.png" />
+        <File fileId="4" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_disc_alb.png" />
+        <File fileId="6" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_disc_arm.png" />
+        <File fileId="8" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_disc_glow.png" />
+        <File fileId="9" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_disc_norm.png" />
+        <File fileId="105" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_interior_alb.png" />
+        <File fileId="106" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_interior_arm.png" />
+        <File fileId="108" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_interior_glow.png" />
+        <File fileId="96" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_lightglass_alb.png" />
+        <File fileId="97" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_lightglass_arm.png" />
+        <File fileId="98" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_lightglass_norm.png" />
+        <File fileId="101" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_lights_alb.png" />
+        <File fileId="102" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_lights_arm.png" />
+        <File fileId="104" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_lights_glow.png" />
+        <File fileId="103" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_lights_norm.png" />
+        <File fileId="59" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_misc_alb.png" />
+        <File fileId="60" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_misc_arm.png" />
+        <File fileId="61" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_misc_norm.png" />
+        <File fileId="86" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_windows_alb.png" />
+        <File fileId="87" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_windows_arm.png" />
+        <File fileId="16" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_supra_wheel_01_alb.png" />
+        <File fileId="19" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_supra_wheel_01_arm.png" />
+        <File fileId="17" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_supra_wheel_02_alb.png" />
+        <File fileId="20" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_supra_wheel_02_arm.png" />
+        <File fileId="15" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_supra_wheel_alb.png" />
+        <File fileId="18" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_supra_wheel_arm.png" />
+        <File fileId="21" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_supra_wheel_norm.png" />
+        <File fileId="31" filename="$data/vehicles/_common_textures/flat_ao.png" />
+        <File fileId="32" filename="$data/vehicles/_common_textures/flat_n.png" />
+        <File fileId="107" filename="$data/vehicles/_common_textures/t__placeholder_arm.png" />
+        <File fileId="110" filename="$data/vehicles/_common_textures/t__placeholder_norm.png" />
+        <File fileId="27" filename="$data/vehicles/_common_textures/t_common_black.png" />
+        <File fileId="70" filename="$data/vehicles/_common_textures/t_common_carbon01_alb.png" />
+        <File fileId="28" filename="$data/vehicles/_common_textures/t_common_carbon01_ani.png" />
+        <File fileId="71" filename="$data/vehicles/_common_textures/t_common_carbon01_arm.png" />
+        <File fileId="72" filename="$data/vehicles/_common_textures/t_common_carbon01_norm.png" />
+        <File fileId="66" filename="$data/vehicles/_common_textures/t_common_glass_imperfections.png" />
+        <File fileId="91" filename="$data/vehicles/_common_textures/t_common_glass_rainbow.png" />
+        <File fileId="55" filename="$data/vehicles/_common_textures/t_common_norm_dummy.png" />
+        <File fileId="68" filename="$data/vehicles/_common_textures/t_common_paint_flakes_norm.png" />
+        <File fileId="69" filename="$data/vehicles/_common_textures/t_common_paint_orangepeel_norm.png" />
+        <File fileId="67" filename="$data/vehicles/_common_textures/t_common_paint_tearing_norm.png" />
+        <File fileId="53" filename="$data/vehicles/_common_textures/t_common_plastic_alb.png" />
+        <File fileId="57" filename="$data/vehicles/_common_textures/t_common_plastic_arm.png" />
+        <File fileId="54" filename="$data/vehicles/_common_textures/t_common_plastic_satin_arm.png" />
+        <File fileId="73" filename="$data/vehicles/_common_textures/t_common_rain_droplets.PNG" />
+        <File fileId="88" filename="$data/vehicles/_damage/t_glass_scratches.png" />
+        <File fileId="89" filename="$data/vehicles/_damage/t_glass_scratches_arm.png" />
+        <File fileId="90" filename="$data/vehicles/_damage/t_glass_scratches_norm.png" />
+        <File fileId="10" filename="$data/vehicles/_damage/t_wheel_damage_mask.png" />
+        <File fileId="11" filename="$data/vehicles/_damage/t_wheel_damage_norm.png" />
+        <File fileId="29" filename="$data/vehicles/_dirt/t_common_dust.png" />
+        <File fileId="12" filename="$data/vehicles/_dirt/t_wheel_dirt_mask.png" />
+        <File fileId="45" filename="$data/vehicles/_tires/t_sw_michelin_25_gt_med_slick_h_00_alb.png" />
+        <File fileId="46" filename="$data/vehicles/_tires/t_sw_michelin_25_gt_med_slick_h_00_mask.png" />
+        <File fileId="47" filename="$data/vehicles/_tires/t_sw_michelin_25_gt_med_slick_h_00_norm.png" />
+        <File fileId="48" filename="$data/vehicles/_tires/t_sw_michelin_25_gt_med_slick_h_01_alb.png" />
+        <File fileId="49" filename="$data/vehicles/_tires/t_sw_michelin_25_gt_med_slick_h_01_mask.png" />
+        <File fileId="50" filename="$data/vehicles/_tires/t_sw_michelin_25_gt_med_slick_h_01_norm.png" />
+        <File fileId="35" filename="$data/vehicles/_tires/t_td_common_slick_00_alb.png" />
+        <File fileId="36" filename="$data/vehicles/_tires/t_td_common_slick_00_mask.png" />
+        <File fileId="38" filename="$data/vehicles/_tires/t_td_common_slick_01_alb.png" />
+        <File fileId="39" filename="$data/vehicles/_tires/t_td_common_slick_01_mask.png" />
+        <File fileId="37" filename="$data/vehicles/_tires/t_td_common_slick_01_norm.png" />
+        <File fileId="42" filename="$data/vehicles/_tires/t_tread_canvas_00_mask.png" />
+        <File fileId="43" filename="$data/vehicles/_tires/t_tread_canvas_norm.png" />
+        <File fileId="41" filename="$data/vehicles/_tires/t_tread_dirt01.png" />
+        <File fileId="40" filename="$data/vehicles/_tires/tread_wear01.png" />
+        <File fileId="111" filename="toyota_supra_aus_v8_evo_wing_loda.i3d" />
+        <File fileId="112" filename="toyota_supra_aus_v8_evo_wing_lodb.i3d" />
+        <File fileId="113" filename="toyota_supra_aus_v8_evo_wing_lodc.i3d" />
+    </Files>
+    <Materials>
+        <Material name="toy_sup_gt4_evo_badge_basic_dam" materialId="17" diffuseColor="0.164706 0.0470588 0.117647 1" specularColor="0.447059 1 0" alphaBlending="true" customShaderId="80" customShaderVariation="with_damage">
+            <Custommap name="albedo" fileId="81" />
+            <Custommap name="arm" fileId="82" />
+            <Custommap name="normal_map" fileId="83" />
+            <Custommap name="dirtmap" fileId="26" />
+            <Custommap name="glow" fileId="27" />
+            <Custommap name="aniso" fileId="28" />
+            <Custommap name="cmn_dirt_dust" fileId="29" />
+            <Custommap name="damage_mask" fileId="30" />
+            <Custommap name="damage_normal" fileId="56" />
+            <Custommap name="texture_ao" fileId="31" />
+            <Custommap name="texture_bent_normals" fileId="32" />
+            <CustomParameter name="normal_int" value="1" />
+            <CustomParameter name="specular" value="0.5" />
+            <CustomParameter name="sheen" value="0" />
+            <CustomParameter name="clearcoat" value="0" />
+            <CustomParameter name="clearcoat_roughness" value="0" />
+            <CustomParameter name="clearcoat_orange_peel" value="0" />
+            <CustomParameter name="clearcoat_normal_intensity" value="0" />
+            <CustomParameter name="glow_intensity" value="0" />
+            <CustomParameter name="triplanar_dirt_scale" value="10" />
+            <CustomParameter name="broad_scale" value="0.1" />
+            <CustomParameter name="broad_clearcoat_scale" value="0.155" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_badge_ext_dam" materialId="11" diffuseColor="0.164706 0.0470588 0.117647 1" specularColor="0.447059 1 0" alphaBlending="true" customShaderId="80" customShaderVariation="with_damage">
+            <Custommap name="albedo" fileId="81" />
+            <Custommap name="arm" fileId="82" />
+            <Custommap name="normal_map" fileId="83" />
+            <Custommap name="dirtmap" fileId="26" />
+            <Custommap name="glow" fileId="27" />
+            <Custommap name="aniso" fileId="28" />
+            <Custommap name="cmn_dirt_dust" fileId="29" />
+            <Custommap name="damage_mask" fileId="30" />
+            <Custommap name="damage_normal" fileId="56" />
+            <Custommap name="texture_ao" fileId="31" />
+            <Custommap name="texture_bent_normals" fileId="32" />
+            <CustomParameter name="normal_int" value="1" />
+            <CustomParameter name="specular" value="0.5" />
+            <CustomParameter name="use_alphatest_treshold" value="1" />
+            <CustomParameter name="alphatest_treshold_near" value="0.3" />
+            <CustomParameter name="alphatest_treshold_far" value="1" />
+            <CustomParameter name="sheen" value="0" />
+            <CustomParameter name="clearcoat" value="0" />
+            <CustomParameter name="clearcoat_roughness" value="0" />
+            <CustomParameter name="clearcoat_orange_peel" value="0" />
+            <CustomParameter name="clearcoat_normal_intensity" value="0" />
+            <CustomParameter name="glow_intensity" value="0" />
+            <CustomParameter name="triplanar_dirt_scale" value="10" />
+            <CustomParameter name="broad_scale" value="0.1" />
+            <CustomParameter name="broad_clearcoat_scale" value="0.155" />
+            <CustomParameter name="use_dirt_map" value="1" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_caliper_basic" materialId="4" diffuseColor="0.501961 0.501961 0.501961 1" specularColor="0.447059 1 0" customShaderId="22">
+            <Custommap name="albedo" fileId="23" />
+            <Custommap name="arm" fileId="24" />
+            <Custommap name="normal_map" fileId="25" />
+            <Custommap name="dirtmap" fileId="26" />
+            <Custommap name="glow" fileId="27" />
+            <Custommap name="aniso" fileId="28" />
+            <Custommap name="cmn_dirt_dust" fileId="29" />
+            <Custommap name="damage_mask" fileId="30" />
+            <Custommap name="texture_ao" fileId="31" />
+            <Custommap name="texture_bent_normals" fileId="32" />
+            <CustomParameter name="normal_int" value="1" />
+            <CustomParameter name="specular" value="0.5" />
+            <CustomParameter name="sheen" value="0" />
+            <CustomParameter name="clearcoat" value="0" />
+            <CustomParameter name="clearcoat_roughness" value="0" />
+            <CustomParameter name="clearcoat_orange_peel" value="0" />
+            <CustomParameter name="clearcoat_normal_intensity" value="0" />
+            <CustomParameter name="glow_intensity" value="0" />
+            <CustomParameter name="triplanar_dirt_scale" value="10" />
+            <CustomParameter name="broad_scale" value="0.1" />
+            <CustomParameter name="broad_clearcoat_scale" value="0.155" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_carbon_body" materialId="19" diffuseColor="0.337255 0.584314 0.611765 1" specularColor="0.447059 1 0" customShaderId="63" customShaderVariation="standard">
+            <Custommap name="liveryAlbedo" fileId="64" />
+            <Custommap name="liveryARM" fileId="65" />
+            <Custommap name="damageNormal" fileId="56" />
+            <Custommap name="microScratchesTiledMap" fileId="66" />
+            <Custommap name="damageMask" fileId="30" />
+            <Custommap name="tearingNormal" fileId="67" />
+            <Custommap name="dirtMap" fileId="26" />
+            <Custommap name="flakesNormal" fileId="68" />
+            <Custommap name="microbumpNormal" fileId="69" />
+            <Custommap name="substrateAlbedo" fileId="70" />
+            <Custommap name="substrateARM" fileId="71" />
+            <Custommap name="substrateNormal" fileId="72" />
+            <Custommap name="substrateAniso" fileId="28" />
+            <Custommap name="raindropTexture" fileId="28" />
+            <CustomParameter name="microScratchesIntensity" value="0.75" />
+            <CustomParameter name="microScratchesRoughness" value="0.742" />
+            <CustomParameter name="microScratchesUVScale" value="12" />
+            <CustomParameter name="damageTearingScale" value="4.3" />
+            <CustomParameter name="useDamageNormal" value="1" />
+            <CustomParameter name="flakesUVScale" value="40" />
+            <CustomParameter name="microbumpUVScale" value="274.4" />
+            <CustomParameter name="microbumpIntensity" value="0.1" />
+            <CustomParameter name="microbumpPaintIntensity" value="0" />
+            <CustomParameter name="substrateUV1Scale" value="600" />
+            <CustomParameter name="substrateNormalIntensity" value="1" />
+            <CustomParameter name="clearcoatOnARMMetal" value="1" />
+            <CustomParameter name="clearcoatOnAlbedoAlpha" value="1" />
+            <CustomParameter name="substrateClearcoat" value="1" />
+            <CustomParameter name="substrateClearcoatRoughness" value="0.3" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dirtColor2" value="0.024 0.01 0.01 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="dustColor2" value="0.133 0.1 0.065 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+            <CustomParameter name="mudColor2" value="0.054 0.036 0.017 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_carbon_body_dam" materialId="10" diffuseColor="0.337255 0.584314 0.611765 1" specularColor="0.447059 1 0" doubleSided="true" customShaderId="63" customShaderVariation="with_damage">
+            <Custommap name="liveryAlbedo" fileId="64" />
+            <Custommap name="liveryARM" fileId="65" />
+            <Custommap name="damageNormal" fileId="56" />
+            <Custommap name="microScratchesTiledMap" fileId="66" />
+            <Custommap name="damageMask" fileId="30" />
+            <Custommap name="tearingNormal" fileId="67" />
+            <Custommap name="dirtMap" fileId="26" />
+            <Custommap name="flakesNormal" fileId="68" />
+            <Custommap name="microbumpNormal" fileId="69" />
+            <Custommap name="substrateAlbedo" fileId="70" />
+            <Custommap name="substrateARM" fileId="71" />
+            <Custommap name="substrateNormal" fileId="72" />
+            <Custommap name="substrateAniso" fileId="28" />
+            <Custommap name="raindropTexture" fileId="73" />
+            <CustomParameter name="microScratchesIntensity" value="0.75" />
+            <CustomParameter name="microScratchesRoughness" value="0.742" />
+            <CustomParameter name="microScratchesUVScale" value="12" />
+            <CustomParameter name="damageTearingScale" value="4.3" />
+            <CustomParameter name="useDamageNormal" value="1" />
+            <CustomParameter name="flakesUVScale" value="40" />
+            <CustomParameter name="microbumpUVScale" value="274.4" />
+            <CustomParameter name="microbumpIntensity" value="0.1" />
+            <CustomParameter name="microbumpPaintIntensity" value="0" />
+            <CustomParameter name="substrateUV1Scale" value="500" />
+            <CustomParameter name="substrateNormalIntensity" value="1" />
+            <CustomParameter name="clearcoatOnARMMetal" value="1" />
+            <CustomParameter name="clearcoatOnAlbedoAlpha" value="1" />
+            <CustomParameter name="substrateClearcoat" value="1" />
+            <CustomParameter name="substrateClearcoatRoughness" value="0.3" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dirtColor2" value="0.024 0.01 0.01 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="dustColor2" value="0.133 0.1 0.065 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+            <CustomParameter name="mudColor2" value="0.054 0.036 0.017 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_disc_wheels" materialId="1" diffuseColor="0.501961 0.501961 0.501961 1" specularColor="0.447059 1 0" customShaderId="3" customShaderVariation="brakedisk">
+            <Custommap name="albedoTex0" fileId="4" />
+            <Custommap name="albedoTex1" fileId="5" />
+            <Custommap name="albedoTex2" fileId="5" />
+            <Custommap name="armTex0" fileId="6" />
+            <Custommap name="armTex1" fileId="7" />
+            <Custommap name="armTex2" fileId="7" />
+            <Custommap name="emissiveTex0" fileId="8" />
+            <Custommap name="normalTex" fileId="9" />
+            <Custommap name="damageMaskTex" fileId="10" />
+            <Custommap name="damageNormalTex" fileId="11" />
+            <Custommap name="dirtMaskTex" fileId="12" />
+            <CustomParameter name="clearCoatLevel" value="1" />
+            <CustomParameter name="clearCoatRoughness" value="0.05" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_interior_basic" materialId="22" diffuseColor="0.501961 0.501961 0.501961 1" specularColor="0.25098 1 0.501961" customShaderId="22" customShaderVariation="basic_lights">
+            <Custommap name="albedo" fileId="105" />
+            <Custommap name="arm" fileId="106" />
+            <Custommap name="normal_map" fileId="55" />
+            <Custommap name="dirtmap" fileId="107" />
+            <Custommap name="glow" fileId="108" />
+            <Custommap name="cmn_dirt_dust" fileId="29" />
+            <Custommap name="damage_mask" fileId="107" />
+            <Custommap name="texture_ao" fileId="31" />
+            <Custommap name="texture_bent_normals" fileId="32" />
+            <CustomParameter name="normal_int" value="1" />
+            <CustomParameter name="specular" value="0.5" />
+            <CustomParameter name="sheen" value="0" />
+            <CustomParameter name="clearcoat" value="0" />
+            <CustomParameter name="clearcoat_roughness" value="0" />
+            <CustomParameter name="clearcoat_orange_peel" value="0" />
+            <CustomParameter name="clearcoat_normal_intensity" value="0" />
+            <CustomParameter name="glow_intensity" value="0" />
+            <CustomParameter name="triplanar_dirt_scale" value="10" />
+            <CustomParameter name="broad_scale" value="0.1" />
+            <CustomParameter name="broad_clearcoat_scale" value="0.155" />
+            <CustomParameter name="use_glow" value="1" />
+            <CustomParameter name="use_light_IDs" value="1" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_interior_basic_dam" materialId="21" diffuseColor="0.501961 0.501961 0.501961 1" specularColor="0.25098 1 0.501961" customShaderId="22" customShaderVariation="with_damage_lights">
+            <Custommap name="albedo" fileId="105" />
+            <Custommap name="arm" fileId="106" />
+            <Custommap name="normal_map" fileId="55" />
+            <Custommap name="dirtmap" fileId="107" />
+            <Custommap name="glow" fileId="108" />
+            <Custommap name="cmn_dirt_dust" fileId="29" />
+            <Custommap name="damage_mask" fileId="107" />
+            <Custommap name="damage_normal" fileId="110" />
+            <Custommap name="texture_ao" fileId="31" />
+            <Custommap name="texture_bent_normals" fileId="32" />
+            <CustomParameter name="normal_int" value="1" />
+            <CustomParameter name="specular" value="0.5" />
+            <CustomParameter name="sheen" value="0" />
+            <CustomParameter name="clearcoat" value="0" />
+            <CustomParameter name="clearcoat_roughness" value="0" />
+            <CustomParameter name="clearcoat_orange_peel" value="0" />
+            <CustomParameter name="clearcoat_normal_intensity" value="0" />
+            <CustomParameter name="glow_intensity" value="0" />
+            <CustomParameter name="triplanar_dirt_scale" value="10" />
+            <CustomParameter name="broad_scale" value="0.1" />
+            <CustomParameter name="broad_clearcoat_scale" value="0.155" />
+            <CustomParameter name="use_glow" value="1" />
+            <CustomParameter name="use_light_IDs" value="1" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_lights_basic_dam" materialId="16" diffuseColor="0.8 0.8 0.8 1" specularColor="0.6 1 0" customShaderId="22" customShaderVariation="with_damage_lights">
+            <Custommap name="albedo" fileId="101" />
+            <Custommap name="arm" fileId="102" />
+            <Custommap name="normal_map" fileId="103" />
+            <Custommap name="dirtmap" fileId="26" />
+            <Custommap name="glow" fileId="104" />
+            <Custommap name="aniso" fileId="28" />
+            <Custommap name="cmn_dirt_dust" fileId="29" />
+            <Custommap name="damage_mask" fileId="30" />
+            <Custommap name="damage_normal" fileId="56" />
+            <Custommap name="texture_ao" fileId="31" />
+            <Custommap name="texture_bent_normals" fileId="32" />
+            <CustomParameter name="normal_int" value="1" />
+            <CustomParameter name="specular" value="0.5" />
+            <CustomParameter name="sheen" value="0" />
+            <CustomParameter name="clearcoat" value="0" />
+            <CustomParameter name="clearcoat_roughness" value="0" />
+            <CustomParameter name="clearcoat_orange_peel" value="0" />
+            <CustomParameter name="clearcoat_normal_intensity" value="0" />
+            <CustomParameter name="glow_intensity" value="0" />
+            <CustomParameter name="triplanar_dirt_scale" value="10" />
+            <CustomParameter name="broad_scale" value="0.1" />
+            <CustomParameter name="broad_clearcoat_scale" value="0.155" />
+            <CustomParameter name="use_glow" value="1" />
+            <CustomParameter name="use_light_IDs" value="1" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_lights_glass_dam" materialId="20" diffuseColor="0.8 0.8 0.8 1" specularColor="0.6 1 0" alphaBlending="true" customShaderId="85" customShaderVariation="standard">
+            <Custommap name="GlassAlbedo" fileId="96" />
+            <Custommap name="GlassARM" fileId="97" />
+            <Custommap name="GlassNormal" fileId="98" />
+            <Custommap name="Imperfections" fileId="66" />
+            <Custommap name="damageNormal" fileId="56" />
+            <Custommap name="damageMask" fileId="30" />
+            <Custommap name="dirtMap" fileId="26" />
+            <Custommap name="ScratchesAlbedo" fileId="88" />
+            <Custommap name="ScratchesARM" fileId="89" />
+            <Custommap name="ScratchesNormal" fileId="90" />
+            <Custommap name="raindropTexture" fileId="73" />
+            <Custommap name="rainbowTexture" fileId="91" />
+            <CustomParameter name="ScratchesUV2Scale" value="8" />
+            <CustomParameter name="IOR" value="1.5" />
+            <CustomParameter name="ImperfectionsRoughness" value="0.926" />
+            <CustomParameter name="ImperfectionsUVScale" value="16" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dirtColor2" value="0.024 0.01 0.01 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="dustColor2" value="0.133 0.1 0.065 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+            <CustomParameter name="mudColor2" value="0.054 0.036 0.017 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_lights_glass_refr_dam" materialId="14" diffuseColor="0.439216 0.470588 0.196078 1" specularColor="0.501961 1 0" alphaBlending="true" customShaderId="85" customShaderVariation="refr_coat">
+            <Refractionmap coeff="1" bumpScale="0.015" withSSRData="false" />
+            <Custommap name="GlassAlbedo" fileId="96" />
+            <Custommap name="GlassARM" fileId="97" />
+            <Custommap name="GlassNormal" fileId="98" />
+            <Custommap name="Imperfections" fileId="66" />
+            <Custommap name="damageNormal" fileId="56" />
+            <Custommap name="damageMask" fileId="30" />
+            <Custommap name="dirtMap" fileId="26" />
+            <Custommap name="ScratchesAlbedo" fileId="88" />
+            <Custommap name="ScratchesARM" fileId="89" />
+            <Custommap name="ScratchesNormal" fileId="90" />
+            <Custommap name="raindropTexture" fileId="73" />
+            <Custommap name="rainbowTexture" fileId="91" />
+            <CustomParameter name="ScratchesNormalIntensity" value="0.1" />
+            <CustomParameter name="ScratchesUV2Scale" value="0" />
+            <CustomParameter name="IOR" value="1.5" />
+            <CustomParameter name="RefractionBlendFactor" value="0.44" />
+            <CustomParameter name="ImperfectionsIntensity" value="0.1" />
+            <CustomParameter name="ImperfectionsRoughness" value="0.926" />
+            <CustomParameter name="ImperfectionsUVScale" value="24" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dirtColor2" value="0.024 0.01 0.01 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="dustColor2" value="0.133 0.1 0.065 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+            <CustomParameter name="mudColor2" value="0.054 0.036 0.017 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_misc_basic" materialId="18" diffuseColor="1 1 1 1" specularColor="0.447059 1 0.501961" customShaderId="22" customShaderVariation="basic">
+            <Custommap name="albedo" fileId="59" />
+            <Custommap name="arm" fileId="60" />
+            <Custommap name="normal_map" fileId="61" />
+            <Custommap name="dirtmap" fileId="26" />
+            <Custommap name="glow" fileId="27" />
+            <Custommap name="aniso" fileId="28" />
+            <Custommap name="cmn_dirt_dust" fileId="29" />
+            <Custommap name="damage_mask" fileId="30" />
+            <Custommap name="texture_ao" fileId="31" />
+            <Custommap name="texture_bent_normals" fileId="32" />
+            <CustomParameter name="normal_int" value="1" />
+            <CustomParameter name="specular" value="0.5" />
+            <CustomParameter name="sheen" value="0" />
+            <CustomParameter name="clearcoat" value="0" />
+            <CustomParameter name="clearcoat_roughness" value="0" />
+            <CustomParameter name="clearcoat_orange_peel" value="0" />
+            <CustomParameter name="clearcoat_normal_intensity" value="0" />
+            <CustomParameter name="glow_intensity" value="0" />
+            <CustomParameter name="triplanar_dirt_scale" value="10" />
+            <CustomParameter name="broad_scale" value="0.1" />
+            <CustomParameter name="broad_clearcoat_scale" value="0.155" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_misc_basic_dam" materialId="15" diffuseColor="1 1 1 1" specularColor="0.447059 1 0.501961" customShaderId="22" customShaderVariation="with_damage">
+            <Custommap name="albedo" fileId="59" />
+            <Custommap name="arm" fileId="60" />
+            <Custommap name="normal_map" fileId="61" />
+            <Custommap name="dirtmap" fileId="26" />
+            <Custommap name="glow" fileId="27" />
+            <Custommap name="aniso" fileId="28" />
+            <Custommap name="cmn_dirt_dust" fileId="29" />
+            <Custommap name="damage_mask" fileId="30" />
+            <Custommap name="damage_normal" fileId="56" />
+            <Custommap name="texture_ao" fileId="31" />
+            <Custommap name="texture_bent_normals" fileId="32" />
+            <CustomParameter name="normal_int" value="1" />
+            <CustomParameter name="specular" value="0.5" />
+            <CustomParameter name="sheen" value="0" />
+            <CustomParameter name="clearcoat" value="0" />
+            <CustomParameter name="clearcoat_roughness" value="0" />
+            <CustomParameter name="clearcoat_orange_peel" value="0" />
+            <CustomParameter name="clearcoat_normal_intensity" value="0" />
+            <CustomParameter name="glow_intensity" value="0" />
+            <CustomParameter name="triplanar_dirt_scale" value="10" />
+            <CustomParameter name="broad_scale" value="0.1" />
+            <CustomParameter name="broad_clearcoat_scale" value="0.155" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_misc_ext_dam" materialId="9" diffuseColor="1 1 1 1" specularColor="0.447059 1 0.501961" customShaderId="22" customShaderVariation="with_damage">
+            <Custommap name="albedo" fileId="59" />
+            <Custommap name="arm" fileId="60" />
+            <Custommap name="normal_map" fileId="61" />
+            <Custommap name="dirtmap" fileId="26" />
+            <Custommap name="glow" fileId="27" />
+            <Custommap name="aniso" fileId="28" />
+            <Custommap name="cmn_dirt_dust" fileId="29" />
+            <Custommap name="damage_mask" fileId="30" />
+            <Custommap name="damage_normal" fileId="56" />
+            <Custommap name="texture_ao" fileId="31" />
+            <Custommap name="texture_bent_normals" fileId="32" />
+            <CustomParameter name="normal_int" value="1" />
+            <CustomParameter name="specular" value="0.5" />
+            <CustomParameter name="sheen" value="0" />
+            <CustomParameter name="clearcoat" value="0" />
+            <CustomParameter name="clearcoat_roughness" value="0" />
+            <CustomParameter name="clearcoat_orange_peel" value="0" />
+            <CustomParameter name="clearcoat_normal_intensity" value="0" />
+            <CustomParameter name="glow_intensity" value="0" />
+            <CustomParameter name="triplanar_dirt_scale" value="10" />
+            <CustomParameter name="broad_scale" value="0.1" />
+            <CustomParameter name="broad_clearcoat_scale" value="0.155" />
+            <CustomParameter name="use_dirt_map" value="1" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_plastic_ext_dam" materialId="8" diffuseColor="1 1 1 1" specularColor="0.25098 1 0.501961" customShaderId="22" customShaderVariation="with_damage">
+            <Custommap name="albedo" fileId="53" />
+            <Custommap name="arm" fileId="57" />
+            <Custommap name="normal_map" fileId="55" />
+            <Custommap name="dirtmap" fileId="26" />
+            <Custommap name="glow" fileId="27" />
+            <Custommap name="aniso" fileId="28" />
+            <Custommap name="cmn_dirt_dust" fileId="29" />
+            <Custommap name="damage_mask" fileId="30" />
+            <Custommap name="damage_normal" fileId="56" />
+            <Custommap name="texture_ao" fileId="31" />
+            <Custommap name="texture_bent_normals" fileId="32" />
+            <CustomParameter name="normal_int" value="1" />
+            <CustomParameter name="specular" value="0.5" />
+            <CustomParameter name="sheen" value="0" />
+            <CustomParameter name="clearcoat" value="0" />
+            <CustomParameter name="clearcoat_roughness" value="0" />
+            <CustomParameter name="clearcoat_orange_peel" value="0" />
+            <CustomParameter name="clearcoat_normal_intensity" value="0" />
+            <CustomParameter name="glow_intensity" value="0" />
+            <CustomParameter name="triplanar_dirt_scale" value="10" />
+            <CustomParameter name="broad_scale" value="0.1" />
+            <CustomParameter name="broad_clearcoat_scale" value="0.155" />
+            <CustomParameter name="use_dirt_map" value="1" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_plastic_satin_ext_dam" materialId="7" diffuseColor="1 1 1 1" specularColor="0.25098 1 0.501961" customShaderId="22" customShaderVariation="with_damage">
+            <Custommap name="albedo" fileId="53" />
+            <Custommap name="arm" fileId="54" />
+            <Custommap name="normal_map" fileId="55" />
+            <Custommap name="dirtmap" fileId="26" />
+            <Custommap name="glow" fileId="27" />
+            <Custommap name="aniso" fileId="28" />
+            <Custommap name="cmn_dirt_dust" fileId="29" />
+            <Custommap name="damage_mask" fileId="30" />
+            <Custommap name="damage_normal" fileId="56" />
+            <Custommap name="texture_ao" fileId="31" />
+            <Custommap name="texture_bent_normals" fileId="32" />
+            <CustomParameter name="normal_int" value="1" />
+            <CustomParameter name="specular" value="0.5" />
+            <CustomParameter name="sheen" value="0" />
+            <CustomParameter name="clearcoat" value="0" />
+            <CustomParameter name="clearcoat_roughness" value="0" />
+            <CustomParameter name="clearcoat_orange_peel" value="0" />
+            <CustomParameter name="clearcoat_normal_intensity" value="0" />
+            <CustomParameter name="glow_intensity" value="0" />
+            <CustomParameter name="triplanar_dirt_scale" value="10" />
+            <CustomParameter name="broad_scale" value="0.1" />
+            <CustomParameter name="broad_clearcoat_scale" value="0.155" />
+            <CustomParameter name="use_dirt_map" value="1" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_tire" materialId="6" diffuseColor="0.0627451 0.0627451 0.0627451 1" specularColor="0.447059 1 0" customShaderId="34" customShaderVariation="basic">
+            <Custommap name="base_color" fileId="45" />
+            <Custommap name="tread_mask" fileId="46" />
+            <Custommap name="normal_map" fileId="47" />
+            <Custommap name="blur_base_color" fileId="48" />
+            <Custommap name="blur_tread_mask" fileId="49" />
+            <Custommap name="blur_normal_map" fileId="50" />
+            <Custommap name="tread_wear" fileId="40" />
+            <Custommap name="tread_dirt" fileId="41" />
+            <Custommap name="tread_canvas_mask" fileId="42" />
+            <Custommap name="tread_canvas_norm" fileId="43" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_tread_tire" materialId="5" diffuseColor="0.133333 0.133333 0.133333 1" customShaderId="34" customShaderVariation="basic">
+            <Custommap name="base_color" fileId="35" />
+            <Custommap name="tread_mask" fileId="36" />
+            <Custommap name="normal_map" fileId="37" />
+            <Custommap name="blur_base_color" fileId="38" />
+            <Custommap name="blur_tread_mask" fileId="39" />
+            <Custommap name="blur_normal_map" fileId="37" />
+            <Custommap name="tread_wear" fileId="40" />
+            <Custommap name="tread_dirt" fileId="41" />
+            <Custommap name="tread_canvas_mask" fileId="42" />
+            <Custommap name="tread_canvas_norm" fileId="43" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_wheels" materialId="2" diffuseColor="0.172549 0.172549 0.172549 1" specularColor="0.447059 1 0" customShaderId="3" customShaderVariation="basic">
+            <Custommap name="albedoTex0" fileId="15" />
+            <Custommap name="albedoTex1" fileId="16" />
+            <Custommap name="albedoTex2" fileId="17" />
+            <Custommap name="armTex0" fileId="18" />
+            <Custommap name="armTex1" fileId="19" />
+            <Custommap name="armTex2" fileId="20" />
+            <Custommap name="normalTex" fileId="21" />
+            <Custommap name="damageMaskTex" fileId="10" />
+            <Custommap name="damageNormalTex" fileId="11" />
+            <Custommap name="dirtMaskTex" fileId="12" />
+            <CustomParameter name="clearCoatLevel" value="0" />
+            <CustomParameter name="clearCoatRoughness" value="0.05" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_wheels_alpha" materialId="3" diffuseColor="0.172549 0.172549 0.172549 1" specularColor="0.447059 1 0" alphaBlending="true" customShaderId="3" customShaderVariation="full_alpha">
+            <Custommap name="albedoTex0" fileId="15" />
+            <Custommap name="albedoTex1" fileId="16" />
+            <Custommap name="albedoTex2" fileId="17" />
+            <Custommap name="armTex0" fileId="18" />
+            <Custommap name="armTex1" fileId="19" />
+            <Custommap name="armTex2" fileId="20" />
+            <Custommap name="normalTex" fileId="21" />
+            <Custommap name="damageMaskTex" fileId="10" />
+            <Custommap name="damageNormalTex" fileId="11" />
+            <Custommap name="dirtMaskTex" fileId="12" />
+            <CustomParameter name="clearCoatLevel" value="0" />
+            <CustomParameter name="clearCoatRoughness" value="0.05" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_windows_glass_dam" materialId="12" specularColor="0.447059 1 0" alphaBlending="true" customShaderId="85" customShaderVariation="with_damage">
+            <Custommap name="GlassAlbedo" fileId="86" />
+            <Custommap name="GlassARM" fileId="87" />
+            <Custommap name="GlassNormal" fileId="55" />
+            <Custommap name="Imperfections" fileId="66" />
+            <Custommap name="damageNormal" fileId="56" />
+            <Custommap name="damageMask" fileId="30" />
+            <Custommap name="dirtMap" fileId="26" />
+            <Custommap name="ScratchesAlbedo" fileId="88" />
+            <Custommap name="ScratchesARM" fileId="89" />
+            <Custommap name="ScratchesNormal" fileId="90" />
+            <Custommap name="raindropTexture" fileId="73" />
+            <Custommap name="rainbowTexture" fileId="91" />
+            <CustomParameter name="ScratchesUV2Scale" value="10" />
+            <CustomParameter name="IOR" value="1.5" />
+            <CustomParameter name="ImperfectionsRoughness" value="0.926" />
+            <CustomParameter name="ImperfectionsUVScale" value="16" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dirtColor2" value="0.024 0.01 0.01 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="dustColor2" value="0.133 0.1 0.065 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+            <CustomParameter name="mudColor2" value="0.054 0.036 0.017 1" />
+        </Material>
+        <Material name="toy_sup_gt4_evo_windshield_glass_dam" materialId="13" specularColor="0.447059 1 0" alphaBlending="true" customShaderId="85" customShaderVariation="banner_with_damage">
+            <Custommap name="GlassAlbedo" fileId="86" />
+            <Custommap name="GlassARM" fileId="87" />
+            <Custommap name="GlassNormal" fileId="55" />
+            <Custommap name="Imperfections" fileId="66" />
+            <Custommap name="BannerAlbedo" fileId="92" />
+            <Custommap name="BannerARM" fileId="93" />
+            <Custommap name="damageNormal" fileId="56" />
+            <Custommap name="damageMask" fileId="30" />
+            <Custommap name="dirtMap" fileId="26" />
+            <Custommap name="ScratchesAlbedo" fileId="88" />
+            <Custommap name="ScratchesARM" fileId="89" />
+            <Custommap name="ScratchesNormal" fileId="90" />
+            <Custommap name="raindropTexture" fileId="73" />
+            <Custommap name="rainbowTexture" fileId="91" />
+            <CustomParameter name="ScratchesUV2Scale" value="8" />
+            <CustomParameter name="IOR" value="1.5" />
+            <CustomParameter name="ImperfectionsRoughness" value="0.926" />
+            <CustomParameter name="ImperfectionsUVScale" value="16" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dirtColor2" value="0.024 0.01 0.01 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="dustColor2" value="0.133 0.1 0.065 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+            <CustomParameter name="mudColor2" value="0.054 0.036 0.017 1" />
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="toyota_supra_aus_v8_evo_exterior.i3d.shapes">
+  </Shapes>
+    <Scene>
+        <TransformGroup name="LOD" nodeId="151">
+            <TransformGroup name="TIRE_LF" nodeId="152">
+                <TransformGroup name="STEER_LF" translation="1.235 0.326999 -0.747177" nodeId="153">
+                    <TransformGroup name="SPIN_LF" nodeId="154">
+                        <TransformGroup name="TOY_SUP_GT4_EVO_DISC_LF" lodDistance="0 25" lodBlending="false" nodeId="155">
+                            <Shape name="TOY_SUP_GT4_EVO_DISC_LF_LODA" shapeId="1" clipDistance="25" nodeId="156" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="1" />
+                            <Shape name="TOY_SUP_GT4_EVO_DISC_LF_LODB" shapeId="2" clipDistance="50" nodeId="157" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="1" />
+                        </TransformGroup>
+                        <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_LF" lodDistance="0 25 50" lodBlending="false" nodeId="158">
+                            <Shape name="TOY_SUP_GT4_EVO_WHEEL_LF_LODA" shapeId="3" clipDistance="25" nodeId="159" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                            <Shape name="TOY_SUP_GT4_EVO_WHEEL_LF_LODB" shapeId="4" clipDistance="50" nodeId="160" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                            <Shape name="TOY_SUP_GT4_EVO_WHEEL_LF_LODC" shapeId="5" clipDistance="100" nodeId="161" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2,3" />
+                        </TransformGroup>
+                        <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_LF_BLUR" nodeId="162">
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_LF_BLUR_ALPHA" nodeId="163">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LF_BLUR_ALPHA_LODA" shapeId="6" clipDistance="25" nodeId="164" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LF_BLUR_ALPHA_LODB" shapeId="7" clipDistance="50" nodeId="165" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                            </TransformGroup>
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_LF_BLUR_ALPHA_SP1" lodDistance="0 25" lodBlending="false" nodeId="166">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LF_BLUR_ALPHA_SP1_LODA" shapeId="8" clipDistance="25" nodeId="167" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LF_BLUR_ALPHA_SP1_LODB" shapeId="9" clipDistance="50" nodeId="168" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                            </TransformGroup>
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_LF_BLUR_ALPHA_SP2" lodDistance="0 25" lodBlending="false" nodeId="169">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LF_BLUR_ALPHA_SP2_LODA" shapeId="10" clipDistance="25" nodeId="170" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LF_BLUR_ALPHA_SP2_LODB" shapeId="11" clipDistance="50" nodeId="171" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                            </TransformGroup>
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_LF_BLUR_OP" lodDistance="0 25" lodBlending="false" nodeId="172">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LF_BLUR_OP_LODA" shapeId="12" clipDistance="25" nodeId="173" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LF_BLUR_OP_LODB" shapeId="13" clipDistance="50" nodeId="174" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                            </TransformGroup>
+                        </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="TOY_SUP_GT4_EVO_CALIPER_LF" lodDistance="0 25" lodBlending="false" nodeId="175">
+                        <Shape name="TOY_SUP_GT4_EVO_CALIPER_LF_LODA" shapeId="14" clipDistance="25" nodeId="176" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="4" />
+                        <Shape name="TOY_SUP_GT4_EVO_CALIPER_LF_LODB" shapeId="15" clipDistance="50" nodeId="177" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="4" />
+                    </TransformGroup>
+                    <TransformGroup name="TOY_SUP_GT4_EVO_TIRE_LF" translation="-1.27242424242 -0.336908060606 0.747177" scale="0.240593272727 0.240593272727 0.233517" lodDistance="0 25 50 100" lodBlending="false" nodeId="178">
+                        <Shape name="TOY_SUP_GT4_EVO_TIRE_LF_LODA" translation="5.2887 1.40033 -3.19968" scale="4.28235 4.28235 4.28235" shapeId="16" clipDistance="25" nodeId="179" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" skinBindNodeIds="182 185 186 184 183" materialIds="5,6" />
+                        <Shape name="TOY_SUP_GT4_EVO_TIRE_LF_LODB" translation="5.2887 1.40033 -3.19968" scale="4.28235 4.28235 4.28235" shapeId="17" clipDistance="50" nodeId="180" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" skinBindNodeIds="182 185 186 184 183" materialIds="5,6" />
+                        <Shape name="TOY_SUP_GT4_EVO_TIRE_LF_LODC" translation="5.2887 1.40033 -3.19968" scale="4.28235 4.28235 4.28235" shapeId="18" clipDistance="100" nodeId="181" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" skinBindNodeIds="182 185 186 184 183" materialIds="6,5" />
+                        <TransformGroup name="carcass_lf" translation="5.25632 1.40278 -3.19849" rotation="-1.00052e-08 -0.0669365 90" nodeId="182">
+                            <TransformGroup name="left_lf" translation="-1.29156 -4.69844e-09 -0.712" rotation="-5.55639e-11 0.00028372 -1.36604e-05" nodeId="183" />
+                            <TransformGroup name="right_lf" translation="-1.29234 -4.66417e-09 0.717472" rotation="-3.69716e-08 0.0669359 -3.41515e-05" nodeId="184" />
+                            <TransformGroup name="rim_lf" translation="-1.13727 -1.14425e-08 0.00582505" rotation="1.09047e-08 0.0669359 6.8297e-06" nodeId="185" />
+                            <TransformGroup name="road_lf" translation="-1.55704 6.90614e-09 0.00181839" rotation="2.92493e-09 0.0669359 -4.92198e-10" nodeId="186" />
+                        </TransformGroup>
+                    </TransformGroup>
+                </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="TIRE_LR" nodeId="187">
+                <TransformGroup name="STEER_LR" translation="-1.235 0.326999 -0.764672" nodeId="188">
+                    <TransformGroup name="SPIN_LR" nodeId="189">
+                        <TransformGroup name="TOY_SUP_GT4_EVO_DISC_LR" lodDistance="0 25" lodBlending="false" nodeId="190">
+                            <Shape name="TOY_SUP_GT4_EVO_DISC_LR_LODA" shapeId="19" clipDistance="25" nodeId="191" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="1" />
+                            <Shape name="TOY_SUP_GT4_EVO_DISC_LR_LODB" translation="0 5.96046e-08 4.17233e-07" shapeId="20" clipDistance="50" nodeId="192" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="1" />
+                        </TransformGroup>
+                        <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_LR" lodDistance="0 25 50" lodBlending="false" nodeId="193">
+                            <Shape name="TOY_SUP_GT4_EVO_WHEEL_LR_LODA" shapeId="21" clipDistance="25" nodeId="194" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                            <Shape name="TOY_SUP_GT4_EVO_WHEEL_LR_LODB" translation="0 5.96046e-08 4.17233e-07" shapeId="22" clipDistance="50" nodeId="195" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                            <Shape name="TOY_SUP_GT4_EVO_WHEEL_LR_LODC" translation="0 5.96046e-08 4.17233e-07" shapeId="23" clipDistance="100" nodeId="196" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2,3" />
+                        </TransformGroup>
+                        <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_LR_BLUR" nodeId="197">
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_LR_BLUR_ALPHA" lodDistance="0 25" lodBlending="false" nodeId="198">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LR_BLUR_ALPHA_LODA" shapeId="24" clipDistance="25" nodeId="199" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LR_BLUR_ALPHA_LODB" translation="0 5.96046e-08 4.17233e-07" shapeId="25" clipDistance="50" nodeId="200" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                            </TransformGroup>
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_LR_BLUR_ALPHA_SP1" lodDistance="0 25" lodBlending="false" nodeId="201">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LR_BLUR_ALPHA_SP1_LODA" shapeId="26" clipDistance="25" nodeId="202" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LR_BLUR_ALPHA_SP1_LODB" translation="0 5.96046e-08 4.17233e-07" shapeId="27" clipDistance="50" nodeId="203" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                            </TransformGroup>
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_LR_BLUR_ALPHA_SP2" lodDistance="0 25" lodBlending="false" nodeId="204">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LR_BLUR_ALPHA_SP2_LODA" shapeId="28" clipDistance="25" nodeId="205" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LR_BLUR_ALPHA_SP2_LODB" translation="0 5.96046e-08 4.17233e-07" shapeId="29" clipDistance="50" nodeId="206" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                            </TransformGroup>
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_LR_BLUR_OP" lodDistance="0 25" lodBlending="false" nodeId="207">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LR_BLUR_OP_LODA" shapeId="30" clipDistance="25" nodeId="208" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_LR_BLUR_OP_LODB" translation="0 5.96046e-08 4.17233e-07" shapeId="31" clipDistance="50" nodeId="209" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                            </TransformGroup>
+                        </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="TOY_SUP_GT4_EVO_CALIPER_LR" lodDistance="0 25" lodBlending="false" nodeId="210">
+                        <Shape name="TOY_SUP_GT4_EVO_CALIPER_LR_LODA" shapeId="32" clipDistance="25" nodeId="211" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="4" />
+                        <Shape name="TOY_SUP_GT4_EVO_CALIPER_LR_LODB" translation="0 5.96046e-08 4.17233e-07" shapeId="33" clipDistance="50" nodeId="212" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="4" />
+                    </TransformGroup>
+                    <TransformGroup name="TOY_SUP_GT4_EVO_TIRE_LR" translation="1.27242424242 -0.336908060606 0.764672" scale="0.240593272727 0.240593272727 0.233517" lodDistance="0 25 50 100" lodBlending="false" nodeId="213">
+                        <Shape name="TOY_SUP_GT4_EVO_TIRE_LR_LODA" translation="-5.28869 1.40033 -3.2746" scale="4.28235 4.28235 4.28235" shapeId="34" clipDistance="25" nodeId="214" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" skinBindNodeIds="217 220 221 219 218" materialIds="5,6" />
+                        <Shape name="TOY_SUP_GT4_EVO_TIRE_LR_LODB" translation="-5.28869 1.40033 -3.2746" scale="4.28235 4.28235 4.28235" shapeId="35" clipDistance="50" nodeId="215" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" skinBindNodeIds="217 220 221 219 218" materialIds="5,6" />
+                        <Shape name="TOY_SUP_GT4_EVO_TIRE_LR_LODC" translation="-5.28869 1.40033 -3.2746" scale="4.28235 4.28235 4.28235" shapeId="36" clipDistance="100" nodeId="216" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" skinBindNodeIds="217 220 221 219 218" materialIds="6,5" />
+                        <TransformGroup name="carcass_lr" translation="-5.32108 1.40278 -3.27341" rotation="-1.00052e-08 -0.0669365 90" nodeId="217">
+                            <TransformGroup name="left_lr" translation="-1.29156 -4.69461e-09 -0.712" rotation="-5.55639e-11 0.00028372 -1.36604e-05" nodeId="218" />
+                            <TransformGroup name="right_lr" translation="-1.29234 -4.66034e-09 0.717472" rotation="-3.69716e-08 0.0669359 -3.41515e-05" nodeId="219" />
+                            <TransformGroup name="rim_lr" translation="-1.13727 -1.14387e-08 0.00582505" rotation="1.09047e-08 0.0669359 6.8297e-06" nodeId="220" />
+                            <TransformGroup name="road_lr" translation="-1.55704 6.90996e-09 0.00181839" rotation="2.92493e-09 0.0669359 -4.92198e-10" nodeId="221" />
+                        </TransformGroup>
+                    </TransformGroup>
+                </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="TIRE_RF" nodeId="222">
+                <TransformGroup name="STEER_RF" translation="1.235 0.326999 0.747177" nodeId="223">
+                    <TransformGroup name="SPIN_RF" nodeId="224">
+                        <TransformGroup name="TOY_SUP_GT4_EVO_DISC_RF" lodDistance="0 25" lodBlending="false" nodeId="225">
+                            <Shape name="TOY_SUP_GT4_EVO_DISC_RF_LODA" shapeId="37" clipDistance="25" nodeId="226" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="1" />
+                            <Shape name="TOY_SUP_GT4_EVO_DISC_RF_LODB" shapeId="38" clipDistance="50" nodeId="227" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="1" />
+                        </TransformGroup>
+                        <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_RF" lodDistance="0 25 50" lodBlending="false" nodeId="228">
+                            <Shape name="TOY_SUP_GT4_EVO_WHEEL_RF_LODA" shapeId="39" clipDistance="25" nodeId="229" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                            <Shape name="TOY_SUP_GT4_EVO_WHEEL_RF_LODB" shapeId="40" clipDistance="50" nodeId="230" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                            <Shape name="TOY_SUP_GT4_EVO_WHEEL_RF_LODC" shapeId="41" clipDistance="100" nodeId="231" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2,3" />
+                        </TransformGroup>
+                        <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_RF_BLUR" nodeId="232">
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_RF_BLUR_ALPHA" lodDistance="0 25" lodBlending="false" nodeId="233">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RF_BLUR_ALPHA_LODA" shapeId="42" clipDistance="25" nodeId="234" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RF_BLUR_ALPHA_LODB" shapeId="43" clipDistance="50" nodeId="235" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                            </TransformGroup>
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_RF_BLUR_ALPHA_SP1" lodDistance="0 25" lodBlending="false" nodeId="236">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RF_BLUR_ALPHA_SP1_LODA" shapeId="44" clipDistance="25" nodeId="237" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RF_BLUR_ALPHA_SP1_LODB" shapeId="45" clipDistance="50" nodeId="238" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                            </TransformGroup>
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_RF_BLUR_ALPHA_SP2" lodDistance="0 25" lodBlending="false" nodeId="239">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RF_BLUR_ALPHA_SP2_LODA" shapeId="46" clipDistance="25" nodeId="240" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RF_BLUR_ALPHA_SP2_LODB" shapeId="47" clipDistance="50" nodeId="241" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                            </TransformGroup>
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_RF_BLUR_OP" lodDistance="0 25" lodBlending="false" nodeId="242">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RF_BLUR_OP_LODA" shapeId="48" clipDistance="25" nodeId="243" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RF_BLUR_OP_LODB" shapeId="49" clipDistance="50" nodeId="244" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                            </TransformGroup>
+                        </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="TOY_SUP_GT4_EVO_CALIPER_RF" lodDistance="0 25" lodBlending="false" nodeId="245">
+                        <Shape name="TOY_SUP_GT4_EVO_CALIPER_RF_LODA" shapeId="50" clipDistance="25" nodeId="246" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="4" />
+                        <Shape name="TOY_SUP_GT4_EVO_CALIPER_RF_LODB" shapeId="51" clipDistance="50" nodeId="247" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="4" />
+                    </TransformGroup>
+                    <TransformGroup name="TOY_SUP_GT4_EVO_TIRE_RF" translation="-1.27242424242 -0.336908060606 -0.747177" scale="0.240593272727 0.240593272727 0.233517" lodDistance="0 25 50 100" lodBlending="false" nodeId="248">
+                        <Shape name="TOY_SUP_GT4_EVO_TIRE_RF_LODA" translation="5.2887 1.40033 3.19968" scale="4.28235 4.28235 4.28235" shapeId="52" clipDistance="25" nodeId="249" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" skinBindNodeIds="252 255 256 254 253" materialIds="5,6" />
+                        <Shape name="TOY_SUP_GT4_EVO_TIRE_RF_LODB" translation="5.2887 1.40033 3.19968" scale="4.28235 4.28235 4.28235" shapeId="53" clipDistance="50" nodeId="250" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" skinBindNodeIds="252 255 256 254 253" materialIds="5,6" />
+                        <Shape name="TOY_SUP_GT4_EVO_TIRE_RF_LODC" translation="5.2887 1.40033 3.19968" scale="4.28235 4.28235 4.28235" shapeId="54" clipDistance="100" nodeId="251" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" skinBindNodeIds="252 255 256 254 253" materialIds="6,5" />
+                        <TransformGroup name="carcass_rf" translation="5.25632 1.40278 3.20086" rotation="-1.00052e-08 -0.0669365 90" nodeId="252">
+                            <TransformGroup name="left_rf" translation="-1.29156 -5.02525e-09 -0.712" rotation="-5.55639e-11 0.00028372 -1.36604e-05" nodeId="253" />
+                            <TransformGroup name="right_rf" translation="-1.29234 -4.99097e-09 0.717472" rotation="-3.69716e-08 0.0669359 -3.41515e-05" nodeId="254" />
+                            <TransformGroup name="rim_rf" translation="-1.13727 -1.17693e-08 0.00582552" rotation="1.09047e-08 0.0669359 6.8297e-06" nodeId="255" />
+                            <TransformGroup name="road_rf" translation="-1.55704 6.57933e-09 0.00181886" rotation="2.92493e-09 0.0669359 -4.92198e-10" nodeId="256" />
+                        </TransformGroup>
+                    </TransformGroup>
+                </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="TIRE_RR" nodeId="257">
+                <TransformGroup name="STEER_RR" translation="-1.235 0.326999 0.764672" nodeId="258">
+                    <TransformGroup name="SPIN_RR" nodeId="259">
+                        <TransformGroup name="TOY_SUP_GT4_EVO_DISC_RR" lodDistance="0 25" lodBlending="false" nodeId="260">
+                            <Shape name="TOY_SUP_GT4_EVO_DISC_RR_LODA" shapeId="55" clipDistance="25" nodeId="261" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="1" />
+                            <Shape name="TOY_SUP_GT4_EVO_DISC_RR_LODB" shapeId="56" clipDistance="50" nodeId="262" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="1" />
+                        </TransformGroup>
+                        <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_RR" lodDistance="0 25 50" lodBlending="false" nodeId="263">
+                            <Shape name="TOY_SUP_GT4_EVO_WHEEL_RR_LODA" shapeId="57" clipDistance="25" nodeId="264" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                            <Shape name="TOY_SUP_GT4_EVO_WHEEL_RR_LODB" shapeId="58" clipDistance="50" nodeId="265" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                            <Shape name="TOY_SUP_GT4_EVO_WHEEL_RR_LODC" shapeId="59" clipDistance="100" nodeId="266" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2,3" />
+                        </TransformGroup>
+                        <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_RR_BLUR" nodeId="267">
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_RR_BLUR_ALPHA" lodDistance="0 25" lodBlending="false" nodeId="268">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RR_BLUR_ALPHA_LODA" shapeId="60" clipDistance="25" nodeId="269" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RR_BLUR_ALPHA_LODB" shapeId="61" clipDistance="50" nodeId="270" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                            </TransformGroup>
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_RR_BLUR_ALPHA_SP1" lodDistance="0 25" lodBlending="false" nodeId="271">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RR_BLUR_ALPHA_SP1_LODA" shapeId="62" clipDistance="25" nodeId="272" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RR_BLUR_ALPHA_SP1_LODB" shapeId="63" clipDistance="50" nodeId="273" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                            </TransformGroup>
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_RR_BLUR_ALPHA_SP2" lodDistance="0 25" lodBlending="false" nodeId="274">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RR_BLUR_ALPHA_SP2_LODA" shapeId="64" clipDistance="25" nodeId="275" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RR_BLUR_ALPHA_SP2_LODB" shapeId="65" clipDistance="50" nodeId="276" castsShadows="false" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="3" />
+                            </TransformGroup>
+                            <TransformGroup name="TOY_SUP_GT4_EVO_WHEEL_RR_BLUR_OP" lodDistance="0 25" lodBlending="false" nodeId="277">
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RR_BLUR_OP_LODA" translation="0.00135815 0 0.00104713" shapeId="66" clipDistance="25" nodeId="278" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                                <Shape name="TOY_SUP_GT4_EVO_WHEEL_RR_BLUR_OP_LODB" translation="0.00135815 0 0.00104713" shapeId="67" clipDistance="50" nodeId="279" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="2" />
+                            </TransformGroup>
+                        </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="TOY_SUP_GT4_EVO_CALIPER_RR" lodDistance="0 25" lodBlending="false" nodeId="280">
+                        <Shape name="TOY_SUP_GT4_EVO_CALIPER_RR_LODA" shapeId="68" clipDistance="25" nodeId="281" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="4" />
+                        <Shape name="TOY_SUP_GT4_EVO_CALIPER_RR_LODB" shapeId="69" clipDistance="50" nodeId="282" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="4" />
+                    </TransformGroup>
+                    <TransformGroup name="TOY_SUP_GT4_EVO_TIRE_RR" translation="1.27242424242 -0.336908060606 -0.764672" scale="0.240593272727 0.240593272727 0.233517" lodDistance="0 25 50 100" lodBlending="false" nodeId="283">
+                        <Shape name="TOY_SUP_GT4_EVO_TIRE_RR_LODA" translation="-5.28869 1.40033 3.2746" scale="4.28235 4.28235 4.28235" shapeId="70" clipDistance="25" nodeId="284" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" skinBindNodeIds="287 290 291 289 288" materialIds="5,6" />
+                        <Shape name="TOY_SUP_GT4_EVO_TIRE_RR_LODB" translation="-5.28869 1.40033 3.2746" scale="4.28235 4.28235 4.28235" shapeId="71" clipDistance="50" nodeId="285" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" skinBindNodeIds="287 290 291 289 288" materialIds="5,6" />
+                        <Shape name="TOY_SUP_GT4_EVO_TIRE_RR_LODC" translation="-5.28869 1.40033 3.2746" scale="4.28235 4.28235 4.28235" shapeId="72" clipDistance="100" nodeId="286" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" skinBindNodeIds="287 290 291 289 288" materialIds="6,5" />
+                        <TransformGroup name="carcass_rr" translation="-5.32108 1.40278 3.27578" rotation="-1.00052e-08 -0.0669365 90" nodeId="287">
+                            <TransformGroup name="left_rr" translation="-1.29156 -5.02907e-09 -0.712" rotation="-5.55639e-11 0.00028372 -1.36604e-05" nodeId="288" />
+                            <TransformGroup name="right_rr" translation="-1.29234 -4.99479e-09 0.717472" rotation="-3.69716e-08 0.0669359 -3.41515e-05" nodeId="289" />
+                            <TransformGroup name="rim_rr" translation="-1.13727 -1.17731e-08 0.00582552" rotation="1.09047e-08 0.0669359 6.8297e-06" nodeId="290" />
+                            <TransformGroup name="road_rr" translation="-1.55704 6.57551e-09 0.00181886" rotation="2.92493e-09 0.0669359 -4.92198e-10" nodeId="291" />
+                        </TransformGroup>
+                    </TransformGroup>
+                </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_BODY" lodDistance="0 25 50" lodBlending="false" nodeId="292" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_BODY_LODA" shapeId="73" clipDistance="25" nodeId="293" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="7,8,9,10" />
+                <Shape name="TOY_SUP_GT4_EVO_BODY_LODB" shapeId="74" clipDistance="50" nodeId="294" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="8,7,9,10" />
+                <Shape name="TOY_SUP_GT4_EVO_BODY_LODC" shapeId="75" clipDistance="100" nodeId="295" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="8,7,9,10" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_BODY_ALPHA" lodDistance="0 25 50" lodBlending="false" nodeId="296" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_BODY_ALPHA_LODA" shapeId="76" clipDistance="25" nodeId="297" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="11" />
+                <Shape name="TOY_SUP_GT4_EVO_BODY_ALPHA_LODB" shapeId="77" clipDistance="50" nodeId="298" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="11" />
+                <Shape name="TOY_SUP_GT4_EVO_BODY_ALPHA_LODC" shapeId="78" clipDistance="100" nodeId="299" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="11" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_BODY_GLASS" lodDistance="0 25 50" lodBlending="false" nodeId="300" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_BODY_GLASS_LODA" shapeId="79" clipDistance="25" nodeId="301" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="12,13" />
+                <Shape name="TOY_SUP_GT4_EVO_BODY_GLASS_LODB" shapeId="80" clipDistance="50" nodeId="302" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="12,13" />
+                <Shape name="TOY_SUP_GT4_EVO_BODY_GLASS_LODC" shapeId="81" clipDistance="100" nodeId="303" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="12,13" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_BODY_GLASS2" lodDistance="0 25 50" lodBlending="false" nodeId="304" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_BODY_GLASS2_LODA" shapeId="82" clipDistance="25" nodeId="305" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="14" />
+                <Shape name="TOY_SUP_GT4_EVO_BODY_GLASS2_LODB" shapeId="83" clipDistance="50" nodeId="306" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="14" />
+                <Shape name="TOY_SUP_GT4_EVO_BODY_GLASS2_LODC" shapeId="84" clipDistance="100" nodeId="307" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="14" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_BONNET" lodDistance="0 25 50" lodBlending="false" nodeId="308" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_BONNET_LODA" shapeId="85" clipDistance="25" nodeId="309" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="9,10" />
+                <Shape name="TOY_SUP_GT4_EVO_BONNET_LODB" shapeId="86" clipDistance="50" nodeId="310" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="9,10" />
+                <Shape name="TOY_SUP_GT4_EVO_BONNET_LODC" shapeId="87" clipDistance="100" nodeId="311" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="9,10" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_BONNET_ALPHA" lodDistance="0 25 50" lodBlending="false" nodeId="312" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_BONNET_ALPHA_LODA" shapeId="88" clipDistance="25" nodeId="313" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="11" />
+                <Shape name="TOY_SUP_GT4_EVO_BONNET_ALPHA_LODB" shapeId="89" clipDistance="50" nodeId="314" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="11" />
+                <Shape name="TOY_SUP_GT4_EVO_BONNET_ALPHA_LODC" shapeId="90" clipDistance="100" nodeId="315" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="11" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_BUMPER_F" lodDistance="0 25 50" lodBlending="false" nodeId="316" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_F_LODA" shapeId="91" clipDistance="25" nodeId="317" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="7,15,9,10,16" />
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_F_LODB" shapeId="92" clipDistance="50" nodeId="318" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="7,9,15,10" />
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_F_LODC" shapeId="93" clipDistance="100" nodeId="319" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="7,9,10,16" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_BUMPER_F_ALPHA" lodDistance="0 25 50" lodBlending="false" nodeId="320" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_F_ALPHA_LODA" shapeId="94" clipDistance="25" nodeId="321" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="11" />
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_F_ALPHA_LODB" shapeId="95" clipDistance="50" nodeId="322" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="11" />
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_F_ALPHA_LODC" shapeId="96" clipDistance="100" nodeId="323" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="11" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_BUMPER_F_GLASS" lodDistance="0 25" lodBlending="false" nodeId="324" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_F_GLASS_LODA" shapeId="97" clipDistance="25" nodeId="325" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="14" />
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_F_GLASS_LODB" shapeId="98" clipDistance="50" nodeId="326" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="14" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_BUMPER_R" lodDistance="0 25 50" lodBlending="false" nodeId="327" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_R_LODA" shapeId="99" clipDistance="25" nodeId="328" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="8,9,16,10,7" />
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_R_LODB" shapeId="100" clipDistance="50" nodeId="329" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="9,7,16,8,10" />
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_R_LODC" shapeId="101" clipDistance="100" nodeId="330" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="9,16,7,8,10" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_BUMPER_R_ALPHA" lodDistance="0 25 50" lodBlending="false" nodeId="331" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_R_ALPHA_LODA" shapeId="102" clipDistance="25" nodeId="332" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="11" />
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_R_ALPHA_LODB" shapeId="103" clipDistance="50" nodeId="333" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="11" />
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_R_ALPHA_LODC" shapeId="104" clipDistance="100" nodeId="334" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="11" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_BUMPER_R_GLASS" lodDistance="0 25 50" lodBlending="false" nodeId="335" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_R_GLASS_LODA" shapeId="105" clipDistance="25" nodeId="336" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="14,12" />
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_R_GLASS_LODB" shapeId="106" clipDistance="50" nodeId="337" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="12,14" />
+                <Shape name="TOY_SUP_GT4_EVO_BUMPER_R_GLASS_LODC" shapeId="107" clipDistance="100" nodeId="338" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="12" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_CHASSIS" lodDistance="0 25 50 100" lodBlending="false" nodeId="339" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_CHASSIS_LODA" shapeId="108" clipDistance="25" nodeId="340" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="15,17" />
+                <Shape name="TOY_SUP_GT4_EVO_CHASSIS_LODB" shapeId="109" clipDistance="50" nodeId="341" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="15,17" />
+                <Shape name="TOY_SUP_GT4_EVO_CHASSIS_LODC" shapeId="110" clipDistance="100" nodeId="342" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="15,17" />
+                <Shape name="TOY_SUP_GT4_EVO_CHASSIS_LODD" shapeId="111" clipDistance="1000" nodeId="343" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="18,19" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_GLASS_LIGHT" lodDistance="0 25" lodBlending="false" nodeId="344" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_LIGHT_GLASS_LODA" shapeId="112" clipDistance="25" nodeId="345" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="14,20" />
+                <Shape name="TOY_SUP_GT4_EVO_LIGHT_GLASS_LODB" shapeId="113" clipDistance="50" nodeId="346" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="20" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_INTERIOR" lodDistance="0 25 50" lodBlending="false" nodeId="347" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_INTERIOR_LODA" shapeId="114" clipDistance="25" nodeId="348" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="21,15" />
+                <Shape name="TOY_SUP_GT4_EVO_INTERIOR_LODB" shapeId="115" clipDistance="50" nodeId="349" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="21,15" />
+                <Shape name="TOY_SUP_GT4_EVO_INTERIOR_LODC" shapeId="116" clipDistance="100" nodeId="350" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="21" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_LIGHT" lodDistance="0 25" lodBlending="false" nodeId="351" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_LIGHT_LODA" shapeId="117" clipDistance="25" nodeId="352" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="16" />
+                <Shape name="TOY_SUP_GT4_EVO_LIGHT_LODB" shapeId="118" clipDistance="50" nodeId="353" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="16" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_STEERINGWHEEL" translation="-0.0732117 0.84361 -0.373796" lodDistance="0 25" lodBlending="false" nodeId="354">
+                <Shape name="TOY_SUP_GT4_EVO_STEERINGWHEEL_LODA" rotation="0 -0 -16" shapeId="119" clipDistance="25" nodeId="355" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="22" />
+                <Shape name="TOY_SUP_GT4_EVO_STEERINGWHEEL_LODB" rotation="0 -0 -16" shapeId="120" clipDistance="50" nodeId="356" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="22" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_WING" lodDistance="0 25 50" lodBlending="false" nodeId="357" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_WING_LODA" shapeId="121" clipDistance="25" nodeId="358" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="8,7,10,15" nonRenderable="true">
+                    <ReferenceNode name="SUPRA_SUPERCAR_REPLACEMENT_LODA" referenceId="111" nodeId="382" scale="0.892857142857 0.952380952381 0.952380952381" />
+                </Shape>
+                <Shape name="TOY_SUP_GT4_EVO_WING_LODB" shapeId="122" clipDistance="50" nodeId="359" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="8,7,10,15" nonRenderable="true">
+                    <ReferenceNode name="SUPRA_SUPERCAR_REPLACEMENT_LODB" referenceId="112" nodeId="383" scale="0.892857142857 0.952380952381 0.952380952381" />
+                </Shape>
+                <Shape name="TOY_SUP_GT4_EVO_WING_LODC" shapeId="123" clipDistance="100" nodeId="360" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="8,7,10" nonRenderable="true">
+                    <ReferenceNode name="SUPRA_SUPERCAR_REPLACEMENT_LODC" referenceId="113" nodeId="384" scale="0.892857142857 0.952380952381 0.952380952381" />
+                </Shape>
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_EVO_WING_ALPHA" lodDistance="0 25" lodBlending="false" nodeId="361" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_WING_ALPHA_LODA" shapeId="124" clipDistance="25" nodeId="362" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="11" nonRenderable="true" />
+                <Shape name="TOY_SUP_GT4_EVO_WING_ALPHA_LODB" shapeId="125" clipDistance="50" nodeId="363" castsShadows="true" receiveShadows="true" renderedInEnvmap="false" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="11" nonRenderable="true" />
+            </TransformGroup>
+            <TransformGroup name="TOY_SUP_GT4_WIPER" lodDistance="0 25 50 100" lodBlending="false" nodeId="364" scale="1.12 1.05 1.05">
+                <Shape name="TOY_SUP_GT4_EVO_WIPER_LODA" translation="0.00585 0 0" shapeId="126" clipDistance="25" nodeId="365" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" skinBindNodeIds="375 376 377 378 379 380 381 367 368 369 370 371 372 373 374" materialIds="18" />
+                <Shape name="TOY_SUP_GT4_EVO_WIPER_LODB" translation="0.00585 0 0" shapeId="127" clipDistance="50" nodeId="366" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" skinBindNodeIds="375 376 377 378 379 380 381 367 368 369 370 371 372 373 374" materialIds="18" />
+                <TransformGroup name="ROOT" rotation="90 -0 0" nodeId="367" />
+                <TransformGroup name="WIPER_L_PIVOT" translation="0.613351 0.825184 -0.593721" rotation="63.7107 69.0919 -51.1643" nodeId="368">
+                    <TransformGroup name="WIPER_L_ARM" translation="-0.137863 0.00700453 -0.0618117" rotation="-93.1686 1.16242 -101.748" nodeId="369">
+                        <TransformGroup name="WIPER_L_ARM_TIP" translation="4.65661e-08 -9.31323e-08 -0.310056" rotation="-5.74767 7.33511 0.448261" nodeId="370" />
+                        <TransformGroup name="WIPER_L_BLADE_1" translation="8.31857e-06 -0.0135699 -0.308959" rotation="178.883 -10.94 179.762" nodeId="371">
+                            <TransformGroup name="WIPER_L_BLADE_1_TIP" translation="-9.31323e-09 6.70552e-08 -0.267497" rotation="-0.129485 -0.481433 0.343735" nodeId="372" />
+                        </TransformGroup>
+                        <TransformGroup name="WIPER_L_BLADE_2" translation="8.31857e-06 -0.0135699 -0.308959" rotation="-5.67727 11.1183 0.350497" nodeId="373">
+                            <TransformGroup name="WIPER_L_BLADE_2_TIP" translation="-1.30385e-08 7.47968e-08 -0.292795" rotation="-4.63668 -2.73901 0.138819" nodeId="374" />
+                        </TransformGroup>
+                    </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="WIPER_R_PIVOT" translation="0.674528 0.82962 -0.0399587" rotation="90.2578 20.7557 -31.0268" nodeId="375">
+                    <TransformGroup name="WIPER_R_ARM" translation="-0.0806141 0.0554158 -0.0784757" rotation="-94.4919 -2.66084 -141.964" nodeId="376">
+                        <TransformGroup name="WIPER_R_ARM_TIP" translation="-5.21541e-08 -7.07805e-08 -0.385714" rotation="-6.40448 5.15695 7.83589" nodeId="377" />
+                        <TransformGroup name="WIPER_R_BLADE_1" translation="-5.52461e-05 -0.0205894 -0.385726" rotation="-177.838 -1.961 179.609" nodeId="378">
+                            <TransformGroup name="WIPER_R_BLADE_1_TIP" translation="-4.09782e-08 -1.49012e-08 -0.251226" rotation="0.0725099 1.13891 -0.34712" nodeId="379" />
+                        </TransformGroup>
+                        <TransformGroup name="WIPER_R_BLADE_2" translation="-5.52461e-05 -0.0205894 -0.385726" rotation="-7.4889 2.12443 0.917392" nodeId="380">
+                            <TransformGroup name="WIPER_R_BLADE_2_TIP" translation="-2.98023e-08 0 -0.290413" rotation="-2.21184 2.14213 0.48775" nodeId="381" />
+                        </TransformGroup>
+                    </TransformGroup>
+                </TransformGroup>
+            </TransformGroup>
+        </TransformGroup>
+    </Scene>
+    <Animation externalAnimFile="toyota_supra_aus_v8_evo_exterior.i3d.anim" />
+</i3D>

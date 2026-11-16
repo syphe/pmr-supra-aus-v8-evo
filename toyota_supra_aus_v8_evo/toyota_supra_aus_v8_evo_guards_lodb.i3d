@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<i3D xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="toyota_supra_aus_v8_evo_guards_lodb.i3d" version="1.6" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="i3dConverter" version="1.0" />
+    </Asset>
+    <Files>
+        <File fileId="1" filename="$data/shaders/str4_vehicleBodyworkShader.xml" />
+        <File fileId="2" filename="liveries/toyota_supra_aus_v8_evo_livery1_alb.dds" />
+        <File fileId="3" filename="liveries/toyota_supra_aus_v8_evo_livery1_arm.dds" />
+        <File fileId="4" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_damage_norm.png" />
+        <File fileId="5" filename="$data/vehicles/_common_textures/t_common_glass_imperfections.png" />
+        <File fileId="6" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_damage_mask.png" />
+        <File fileId="7" filename="$data/vehicles/_common_textures/t_common_paint_tearing_norm.png" />
+        <File fileId="8" filename="$data/vehicles/Toyota_Supra_GT4/Textures/t_toy_sup_gt4_evo_dirt.png" />
+        <File fileId="9" filename="$data/vehicles/_common_textures/t_common_paint_flakes_norm.png" />
+        <File fileId="10" filename="$data/vehicles/_common_textures/t_common_paint_orangepeel_norm.png" />
+        <File fileId="11" filename="$data/vehicles/_common_textures/t_common_carbon01_alb.png" />
+        <File fileId="12" filename="$data/vehicles/_common_textures/t_common_carbon01_arm.png" />
+        <File fileId="13" filename="$data/vehicles/_common_textures/t_common_carbon01_norm.png" />
+        <File fileId="14" filename="$data/vehicles/_common_textures/t_common_carbon01_ani.png" />
+        <File fileId="15" filename="$data/vehicles/_common_textures/t_common_rain_droplets.PNG" />
+    </Files>
+    <Materials>
+        <Material name="toy_sup_gt4_evo_carbon_body_dam" materialId="1" diffuseColor="0.337255 0.584314 0.611765 1" specularColor="0.447059 1 0" doubleSided="true" customShaderId="1" customShaderVariation="with_damage">
+            <Custommap name="liveryAlbedo" fileId="2" />
+            <Custommap name="liveryARM" fileId="3" />
+            <Custommap name="damageNormal" fileId="4" />
+            <Custommap name="microScratchesTiledMap" fileId="5" />
+            <Custommap name="damageMask" fileId="6" />
+            <Custommap name="tearingNormal" fileId="7" />
+            <Custommap name="dirtMap" fileId="8" />
+            <Custommap name="flakesNormal" fileId="9" />
+            <Custommap name="microbumpNormal" fileId="10" />
+            <Custommap name="substrateAlbedo" fileId="11" />
+            <Custommap name="substrateARM" fileId="12" />
+            <Custommap name="substrateNormal" fileId="13" />
+            <Custommap name="substrateAniso" fileId="14" />
+            <Custommap name="raindropTexture" fileId="15" />
+            <CustomParameter name="microScratchesIntensity" value="0.75" />
+            <CustomParameter name="microScratchesRoughness" value="0.742" />
+            <CustomParameter name="microScratchesUVScale" value="12" />
+            <CustomParameter name="damageTearingScale" value="4.3" />
+            <CustomParameter name="useDamageNormal" value="1" />
+            <CustomParameter name="flakesUVScale" value="40" />
+            <CustomParameter name="microbumpUVScale" value="274.4" />
+            <CustomParameter name="microbumpIntensity" value="0.1" />
+            <CustomParameter name="microbumpPaintIntensity" value="0" />
+            <CustomParameter name="substrateUV1Scale" value="500" />
+            <CustomParameter name="substrateNormalIntensity" value="1" />
+            <CustomParameter name="clearcoatOnARMMetal" value="1" />
+            <CustomParameter name="clearcoatOnAlbedoAlpha" value="1" />
+            <CustomParameter name="substrateClearcoat" value="1" />
+            <CustomParameter name="substrateClearcoatRoughness" value="0.3" />
+            <CustomParameter name="dirtColor1" value="0.015 0.007 0.007 1" />
+            <CustomParameter name="dirtColor2" value="0.024 0.01 0.01 1" />
+            <CustomParameter name="dustColor1" value="0.107 0.08 0.053 1" />
+            <CustomParameter name="dustColor2" value="0.133 0.1 0.065 1" />
+            <CustomParameter name="mudColor1" value="0.03 0.019 0.01 1" />
+            <CustomParameter name="mudColor2" value="0.054 0.036 0.017 1" />
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="toyota_supra_aus_v8_evo_guards_lodb.i3d.shapes">
+  </Shapes>
+    <Scene>
+        <Shape name="SUPRA_PAINTED_ARCHES_LODB" shapeId="1" clipDistance="50" nodeId="4" castsShadows="true" receiveShadows="true" renderedInEnvmap="true" grassMetaDataProvider="false" grassMesh="false" highdetailMesh="false" materialIds="1" />
+    </Scene>
+</i3D>

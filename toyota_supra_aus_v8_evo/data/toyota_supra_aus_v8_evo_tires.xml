@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<table type="table">
+    <string name="texturesPath" value="$data/vehicles/_tires"/>
+    <string name="defaultCompound" value="medium"/>
+    <string name="materialSidewall" value="toy_sup_gt4_evo_tire"/>
+    <string name="materialTreads" value="toy_sup_gt4_evo_tread_tire"/>
+    <table name="soft">
+        <table name="sidewall">
+            <string name="static_alb" value="t_sw_straight4_gt_slick_med_00_alb.png"/>
+            <string name="static_mask" value="t_sw_straight4_gt_slick_med_00_mask.png"/>
+            <string name="static_norm" value="t_sw_straight4_gt_slick_med_00_norm.png"/>
+            <string name="blur_alb" value="t_sw_straight4_gt_slick_med_01_alb.png"/>
+            <string name="blur_mask" value="t_sw_straight4_gt_slick_med_01_mask.png"/>
+            <string name="blur_norm" value="t_sw_straight4_gt_slick_med_01_norm.png"/>
+        </table>
+        <table name="treads">
+            <string name="static_alb" value="t_td_common_slick_00_alb.png"/>
+            <string name="static_mask" value="t_td_common_slick_00_mask.png"/>
+            <string name="static_norm" value="t_td_common_slick_00_norm.png"/>
+            <string name="blur_alb" value="t_td_common_slick_01_alb.png"/>
+            <string name="blur_mask" value="t_td_common_slick_01_mask.png"/>
+            <string name="blur_norm" value="t_td_common_slick_01_norm.png"/>
+        </table>
+    </table>
+    <table name="medium">
+        <table name="sidewall">
+            <string name="static_alb" value="t_sw_straight4_gt_slick_med_00_alb.png"/>
+            <string name="static_mask" value="t_sw_straight4_gt_slick_med_00_mask.png"/>
+            <string name="static_norm" value="t_sw_straight4_gt_slick_med_00_norm.png"/>
+            <string name="blur_alb" value="t_sw_straight4_gt_slick_med_01_alb.png"/>
+            <string name="blur_mask" value="t_sw_straight4_gt_slick_med_01_mask.png"/>
+            <string name="blur_norm" value="t_sw_straight4_gt_slick_med_01_norm.png"/>
+        </table>
+        <table name="treads">
+            <string name="static_alb" value="t_td_common_slick_00_alb.png"/>
+            <string name="static_mask" value="t_td_common_slick_00_mask.png"/>
+            <string name="static_norm" value="t_td_common_slick_00_norm.png"/>
+            <string name="blur_alb" value="t_td_common_slick_01_alb.png"/>
+            <string name="blur_mask" value="t_td_common_slick_01_mask.png"/>
+            <string name="blur_norm" value="t_td_common_slick_01_norm.png"/>
+        </table>
+    </table>
+    <table name="hard">
+        <table name="sidewall">
+            <string name="static_alb" value="t_sw_straight4_gt_slick_med_00_alb.png"/>
+            <string name="static_mask" value="t_sw_straight4_gt_slick_med_00_mask.png"/>
+            <string name="static_norm" value="t_sw_straight4_gt_slick_med_00_norm.png"/>
+            <string name="blur_alb" value="t_sw_straight4_gt_slick_med_01_alb.png"/>
+            <string name="blur_mask" value="t_sw_straight4_gt_slick_med_01_mask.png"/>
+            <string name="blur_norm" value="t_sw_straight4_gt_slick_med_01_norm.png"/>
+        </table>
+        <table name="treads">
+            <string name="static_alb" value="t_td_common_slick_00_alb.png"/>
+            <string name="static_mask" value="t_td_common_slick_00_mask.png"/>
+            <string name="static_norm" value="t_td_common_slick_00_norm.png"/>
+            <string name="blur_alb" value="t_td_common_slick_01_alb.png"/>
+            <string name="blur_mask" value="t_td_common_slick_01_mask.png"/>
+            <string name="blur_norm" value="t_td_common_slick_01_norm.png"/>
+        </table>
+    </table>
+    <table name="wet">
+        <table name="sidewall">
+            <string name="static_alb" value="t_sw_straight4_gt_wet_med_00_alb.png"/>
+            <string name="static_mask" value="t_sw_straight4_gt_wet_med_00_mask.png"/>
+            <string name="static_norm" value="t_sw_straight4_gt_wet_med_00_norm.png"/>
+            <string name="blur_alb" value="t_sw_straight4_gt_wet_med_01_alb.png"/>
+            <string name="blur_mask" value="t_sw_straight4_gt_wet_med_01_mask.png"/>
+            <string name="blur_norm" value="t_sw_straight4_gt_wet_med_01_norm.png"/>
+        </table>
+        <table name="treads">
+            <string name="static_alb" value="t_td_michelin_25_gt_hy_wet_00_alb.png"/>
+            <string name="static_mask" value="t_td_michelin_25_gt_hy_wet_00_mask.png"/>
+            <string name="static_norm" value="t_td_michelin_25_gt_hy_wet_00_norm.png"/>
+            <string name="blur_alb" value="t_td_michelin_25_gt_hy_wet_01_alb.png"/>
+            <string name="blur_mask" value="t_td_michelin_25_gt_hy_wet_01_mask.png"/>
+            <string name="blur_norm" value="t_td_michelin_25_gt_hy_wet_01_norm.png"/>
+        </table>
+    </table>
+</table>

@@ -1,0 +1,2 @@
+# Resolve the stock vehicle entry point's local dependency from the mod directory.
+INCLUDE "dlcS/s1_dlc3/vehicles/Ford_Mustang_V8Supercar_2024/data/Ford_Mustang_V8Supercar_2024.engn.hadron"

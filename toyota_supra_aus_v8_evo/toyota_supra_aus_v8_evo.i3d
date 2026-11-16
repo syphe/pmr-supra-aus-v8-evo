@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<i3D xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="toyota_supra_aus_v8_evo.i3d" version="1.6" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="10.5.0" />
+    </Asset>
+    <Files>
+        <File fileId="2" filename="$data/vehicles/Toyota_Supra_GT4/Toyota_Supra_GT4_Evo_COL.i3d" />
+        <File fileId="3" filename="toyota_supra_aus_v8_evo_cockpit.i3d" />
+        <File fileId="4" filename="$data/vehicles/Toyota_Supra_GT4/Toyota_Supra_GT4_Evo_Display.i3d" />
+        <File fileId="1" filename="toyota_supra_aus_v8_evo_exterior.i3d" />
+        <File fileId="6" filename="$data/vehicles/_lights/common_brakelight.i3d" />
+        <File fileId="5" filename="$data/vehicles/_lights/common_headlight.i3d" />
+        <File fileId="7" filename="$data/vehicles/_lights/common_rainlight.i3d" />
+        <File fileId="8" filename="toyota_supra_aus_v8_evo_shifter.i3d" />
+        <File fileId="9" filename="toyota_supra_aus_v8_evo_guards_loda.i3d" />
+        <File fileId="10" filename="toyota_supra_aus_v8_evo_guards_lodb.i3d" />
+        <File fileId="11" filename="toyota_supra_aus_v8_evo_guards_lodc.i3d" />
+    </Files>
+    <Materials>
+  </Materials>
+    <Shapes>
+  </Shapes>
+    <Scene>
+        <TransformGroup name="exterior" objectMask="0xff00ff" nodeId="10">
+            <ReferenceNode name="LOD" referenceId="1" nodeId="161" />
+            <ReferenceNode name="TOY_SUP_GT4_EVO_Collision" referenceId="2" nodeId="405" />
+            <TransformGroup name="SUPRA_SUPERCAR_REPLACEMENT_GUARDS" lodDistance="0 25 50" lodBlending="false" nodeId="706">
+                <ReferenceNode name="SUPRA_SUPERCAR_REPLACEMENT_GUARDS_LODA" referenceId="9" nodeId="707" />
+                <ReferenceNode name="SUPRA_SUPERCAR_REPLACEMENT_GUARDS_LODB" referenceId="10" nodeId="708" />
+                <ReferenceNode name="SUPRA_SUPERCAR_REPLACEMENT_GUARDS_LODC" referenceId="11" nodeId="709" />
+            </TransformGroup>
+        </TransformGroup>
+        <Camera name="working_camera" translation="-3.3767 1.50935 -1.12109" rotation="155.707 -45.9943 180" objectMask="0xff00ff" nodeId="412" fov="60" nearClip="0.1" farClip="1000" orthographicHeight="1" />
+        <TransformGroup name="interior" objectMask="0xff00ff" nodeId="413">
+            <ReferenceNode name="Toyota_Supra_GT4_Evo_CPIT" referenceId="3" nodeId="466" />
+            <ReferenceNode name="Toyota_Supra_GT4_Evo_Display" referenceId="4" nodeId="549" />
+            <ReferenceNode name="Supra_Sequential_Shifter" referenceId="8" nodeId="705" />
+            <ReferenceNode name="SUPRA_SUPERCAR_REPLACEMENT_GUARDS_CPIT" referenceId="9" nodeId="710" />
+        </TransformGroup>
+        <TransformGroup name="seat" objectMask="0xff00ff" nodeId="678" />
+        <TransformGroup name="cameras" objectMask="0xff00ff" nodeId="679">
+            <Camera name="chaseCamera" translation="-6 1.7 0" rotation="178 -90 180" objectMask="0xff00ff" nodeId="680" fov="60" nearClip="0.1" farClip="20000" orthographicHeight="1" />
+            <Camera name="roofCamera" translation="-0.169098 1.38562 -4.44049e-08" rotation="0 -90 0" objectMask="0xff00ff" nodeId="681" fov="60" nearClip="0.1" farClip="20000" orthographicHeight="1" />
+            <Camera name="bonnetCamera" translation="1.30549 1.02293 0" rotation="0 -90 0" objectMask="0xff00ff" nodeId="682" fov="60" nearClip="0.1" farClip="20000" orthographicHeight="1" />
+            <Camera name="cockpitCamera" translation="-0.453960396039604 1.05732673267327 -0.368" rotation="0 -90 0" objectMask="0xff00ff" nodeId="683" fov="70" nearClip="0.04" farClip="20000" orthographicHeight="1" />
+        </TransformGroup>
+        <TransformGroup name="lights" objectMask="0xff00ff" nodeId="684">
+            <ReferenceNode name="headlights" translation="0.084002 0.0634362 0" referenceId="5" nodeId="686" />
+            <ReferenceNode name="brakelights" translation="0.0265318 -0.0276418 0" referenceId="6" nodeId="692" />
+            <ReferenceNode name="rainlight" translation="-0.188833 0.155778 0" referenceId="7" nodeId="696" />
+        </TransformGroup>
+        <Camera name="rearviewCamera" translation="-2.21632 1.05524 2.34808e-06" rotation="0 90 0" objectMask="0xff00ff" nodeId="698" fov="60" nearClip="0.1" farClip="1000" orthographicHeight="1" />
+        <Camera name="lookbackCamera" translation="-2.21632 1.05524 2.34808e-06" rotation="0 90 0" objectMask="0xff00ff" nodeId="698" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1" />
+        <Camera name="rearviewCpitCamera" translation="-2.21764 1.05698 2.39341e-06" rotation="0 90 0" objectMask="0xff00ff" nodeId="699" fov="60" nearClip="0.1" farClip="1000" orthographicHeight="1" />
+        <AoDecal name="aoDecal_t_toy_sup_gt4_evo_ambsh" translation="0 -0.28 0" rotation="0 0 0" scale="3.5 0.33 1.75" aoMaskTex="$data/vehicles/Toyota_Supra_GT4/textures/t_toy_sup_gt4_evo_ambsh.png" nodeId="700">
+    </AoDecal>
+        <TransformGroup name="VFX" objectMask="0xff00ff" nodeId="701">
+            <TransformGroup name="Exhaust_1" translation="-2.02159 0.269393 -0.519265" rotation="0 -90 0" objectMask="0xff00ff" nodeId="702" />
+            <TransformGroup name="FuelNozzle" translation="-0.977513 1.02058 0.653589" objectMask="0xff00ff" nodeId="703" />
+            <TransformGroup name="HeatHaze" translation="1.42254 0.825946 0" rotation="0 0 -11" objectMask="0xff00ff" nodeId="704" />
+        </TransformGroup>
+    </Scene>
+    <UserAttributes>
+        <UserAttribute nodeId="680">
+            <Attribute name="type" type="string" value="chase" />
+        </UserAttribute>
+        <UserAttribute nodeId="681">
+            <Attribute name="type" type="string" value="fixed" />
+        </UserAttribute>
+        <UserAttribute nodeId="682">
+            <Attribute name="type" type="string" value="fixed" />
+        </UserAttribute>
+        <UserAttribute nodeId="683">
+            <Attribute name="type" type="string" value="internal" />
+        </UserAttribute>
+    </UserAttributes>
+</i3D>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- desc version defines the min feature set of the game needed to run the mod -->
+<modDesc titleId="pmr1" descVersion="0">
+
+    <name>Toyota Supra Aus V8 Evo</name>
+    <type>Vehicle</type>
+
+    <vehicles>
+        <vdef path="toyota_supra_aus_v8_evo/data/toyota_supra_aus_v8_evo.vdef" />
+    </vehicles>
+
+    <liveries>
+        <xml path="toyota_supra_aus_v8_evo/data/liveries/toyota_supra_aus_v8_evo_livery1.xml"/>
+        <xml path="toyota_supra_aus_v8_evo/data/liveries/toyota_supra_aus_v8_evo_livery2.xml"/>
+        <xml path="toyota_supra_aus_v8_evo/data/liveries/toyota_supra_aus_v8_evo_livery3.xml"/>
+    </liveries>
+
+    <!-- defines the mod author -->
+    <author>syphe</author>
+
+    <!-- defines the current version-->
+    <version>1.0.0.0</version>
+
+    <!-- defines if mod is supported multiplayer -->
+    <multiplayer supported="true" />
+
+    <!-- defines the mod title shown ingame. multilanguage support using the shortcuts like fr, es, cz, jp, etc -->
+    <title>
+        <en>Toyota Supra Aus V8 Evo</en>
+    </title>
+
+    <!-- defines the mod description shown ingame. multilanguage support using the shortcuts like fr, es, cz, jp, etc -->
+    <description>
+        <en>
+            Toyota Supra with Mustang AUS V8 Evo physics, assists and audio. Retains paddle shifting. Requires the V8 Power Pack DLC.
+        </en>
+    </description>
+
+    <!-- defines the icon shown ingame (path relative to mod base folder) -->
+    <iconFilename>icon.dds</iconFilename>
+</modDesc>
